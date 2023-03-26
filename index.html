@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carsouel</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <!-- title -->
+      <h1>Our Reviews</h1>
+      <article class="review">
+        <div class="img-container">
+          <img id="person-img" src="" alt="" />
+        </div>
+        <h4 id="author"></h4>
+        <p id="job" class="job"></p>
+        <p id="info">
+          
+        </p>
+        <!-- prev next buttons -->
+        <div class="button_container">
+          <button type="button" aria-label="btn" class="prev-btn" id="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button type="button" aria-label="btn" class="next-btn" id="next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        <!-- random button -->
+        <button type="button" class="random-btn" id="random-btn">surprise me</button>
+      </article>
+    </section>
+
+    <script src="author.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
